@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-text-color: #183b56;
+  --secondary-text-color: #577592;
+  --accent-color: #2294ed;
+  --padding-inline-section: 1.25rem;
+}
+
+/* header section */
+.container {
+  max-width: 1180px;
+  margin-inline: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.continue-shopping {
+    border-bottom: 1px solid black;
+    padding: 1.25rem;
+    gap: 20px;
+    justify-content: space-between;
+}
+.arrow-icon {
+    width:1.2rem;
+    cursor: pointer;
+}
+.cart-item img {
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+/* main-cart-section */
+
+.main-cart-section {
+    margin-top: 50px;
+}
+.shopping-cart-section {
+    padding: 10px;
+}
+/* cart items */
+
+.cart-items-container {
+    
+    padding: 20px;
+    margin-top: 20px;
+    min-height: 250px;
+    max-height: 450px;
+    background-color: #abe5fe;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 2px  #aaaaaa;
+    overflow-y: auto;
+}
+/* Add quantity */
+.fa-solid  {
+    cursor: pointer;
+}
+.cart-items {
+    /* margin-inline: 20px; */
+    padding: 10px;
+    border-bottom: 1px solid black;
+    min-height: 50px;
+}
+.items-info {
+    padding: 2px 10px;
+    justify-content: space-between;
+}
+.items-info .title {
+    width: 200px;
+}
+.products-img img {
+    cursor: pointer;
+}
+.items-info .products-img img{
+    width: 100px;
+    border-radius: 20px;
+}
+
+.add-quantity {
+    display: flex;
+    gap: 10px;
+}
+.product-quantity-btn {
+    width: 25px;
+    text-align: center;
+}
+.remove-item {
+    cursor: pointer;
+}
+/* cart-btn */
+.cart-btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.btn:hover {
+    color: #2294ed;
+    background-color: white;
+    border: 2px solid #2294ed;
+    transition: .3s linear;
+    font-weight: bold;
+}
+.checkout-btn {
+    background-color: #2294ed;
+    color: white;
+    margin-right: 5px;
+}
+.CLEAR-btn {
+    color: white;
+    background-color: red;
+}
+/* Total-item  */
+.Total-item  {
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+}
